@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dapur Nusantara - Sajian kuliner khas Indonesia dengan cita rasa autentik.">
+    <title>Dapur Nusantara | Cita Rasa Indonesia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">🍲 Dapur Nusantara</div>
+
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">Tentang</a>
+            <a href="#cicd">CI/CD</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tagline">CITA RASA ASLI INDONESIA</span>
+
+            <h1>Nikmati Kelezatan Kuliner Nusantara</h1>
+
+            <p>
+                Menghadirkan berbagai hidangan khas Indonesia
+                dengan cita rasa autentik, bahan berkualitas,
+                dan penuh kehangatan.
+            </p>
+
+            <a href="#menu" class="btn-primary">Lihat Menu Kami</a>
+        </div>
+
+        <div class="hero-image">
+            <div class="food-circle">
+                🍛
+            </div>
+            <div class="food-decoration">🌶️</div>
+            <div class="food-decoration second">🥬</div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+        <div class="section-heading">
+            <span>MENU FAVORIT</span>
+            <h2>Hidangan Pilihan Kami</h2>
+            <p>Berbagai makanan khas Indonesia yang menggugah selera.</p>
+        </div>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <div class="menu-icon">🍛</div>
+                <h3>Nasi Rendang</h3>
+                <p>Rendang daging sapi dengan bumbu rempah khas Padang.</p>
+                <strong>Rp25.000</strong>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-icon">🍗</div>
+                <h3>Ayam Bakar</h3>
+                <p>Ayam bakar dengan bumbu manis gurih dan sambal pilihan.</p>
+                <strong>Rp22.000</strong>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-icon">🍜</div>
+                <h3>Soto Nusantara</h3>
+                <p>Kuah soto hangat dengan racikan rempah tradisional.</p>
+                <strong>Rp18.000</strong>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="about-icon">👩‍🍳</div>
+
+        <div class="about-content">
+            <span>TENTANG KAMI</span>
+            <h2>Menghadirkan Kehangatan dalam Setiap Sajian</h2>
+
+            <p>
+                Dapur Nusantara merupakan UMKM kuliner yang
+                menghadirkan makanan khas Indonesia dengan
+                bahan berkualitas dan resep pilihan.
+                Kami percaya bahwa setiap hidangan memiliki
+                cerita dan keunikan tersendiri.
+            </p>
+
+            <a href="#contact" class="btn-primary">Hubungi Kami</a>
+        </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="feature-section">
+        <div class="section-heading">
+            <span>MENGAPA KAMI?</span>
+            <h2>Keunggulan Dapur Nusantara</h2>
+        </div>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <div>🌿</div>
+                <h3>Bahan Berkualitas</h3>
+                <p>Menggunakan bahan pilihan yang segar dan berkualitas.</p>
+            </div>
+
+            <div class="feature-card">
+                <div>❤️</div>
+                <h3>Dibuat dengan Cinta</h3>
+                <p>Setiap hidangan dibuat dengan perhatian dan sepenuh hati.</p>
+            </div>
+
+            <div class="feature-card">
+                <div>🇮🇩</div>
+                <h3>Resep Nusantara</h3>
+                <p>Mempertahankan cita rasa autentik kuliner Indonesia.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CI/CD DASHBOARD -->
+    <section class="cicd-section" id="cicd">
+
+        <div class="cicd-container">
+
+            <div class="cicd-heading">
+                <span class="cicd-label">AUTOMATED DEPLOYMENT</span>
+
+                <h2>CI/CD Deployment Dashboard</h2>
+
+                <p>
+                    Visualisasi proses Continuous Integration
+                    dan Continuous Deployment pada website
+                    Dapur Nusantara.
+                </p>
+            </div>
+
+            <div class="deployment-card">
+
+                <div class="deployment-header">
+                    <div>
+                        <h3>Zero Downtime Deployment</h3>
+                        <p>GitHub Actions Deployment Workflow</p>
+                    </div>
+
+                    <span class="status-badge">
+                        ● SYSTEM READY
+                    </span>
+                </div>
+
+                <div class="deployment-flow">
+
+                    <div class="deploy-step">
+                        <div class="step-icon">01</div>
+                        <h4>Source Push</h4>
+                        <p>Source code dikirim ke repository GitHub.</p>
+                        <span class="step-status">WAITING</span>
+                    </div>
+
+                    <div class="flow-arrow">→</div>
+
+                    <div class="deploy-step">
+                        <div class="step-icon">02</div>
+                        <h4>SSH Handshake & Sync</h4>
+                        <p>Simulasi sinkronisasi source code ke server.</p>
+                        <span class="step-status">WAITING</span>
+                    </div>
+
+                    <div class="flow-arrow">→</div>
+
+                    <div class="deploy-step">
+                        <div class="step-icon">03</div>
+                        <h4>Nginx Reload</h4>
+                        <p>Simulasi pembaruan layanan web server.</p>
+                        <span class="step-status">WAITING</span>
+                    </div>
+
+                </div>
+
+                <div class="deployment-footer">
+
+                    <p id="deployStatus">
+                        Menunggu proses deployment...
+                    </p>
+
+                    <button id="deployButton">
+                        Jalankan Simulasi Deploy
+                    </button>
+
+                </div>
+
+                <div class="simulation-note">
+                    Catatan: SSH Handshake dan Nginx Reload merupakan
+                    simulasi visual. Deployment website sebenarnya
+                    dilakukan menggunakan GitHub Actions dan GitHub Pages.
+                </div>
+
+            </div>
+
+            <div class="history-section">
+
+                <h3>Sejarah dan Proses CI/CD</h3>
+
+                <div class="history-item">
+                    <span>01</span>
+                    <div>
+                        <h4>Continuous Integration</h4>
+                        <p>
+                            Praktik menggabungkan perubahan kode
+                            secara berkala ke repository bersama
+                            untuk membantu mendeteksi kesalahan lebih awal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="history-item">
+                    <span>02</span>
+                    <div>
+                        <h4>Continuous Delivery</h4>
+                        <p>
+                            Proses otomatis untuk mempersiapkan
+                            aplikasi agar siap dirilis setelah
+                            melewati tahapan pengujian.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="history-item">
+                    <span>03</span>
+                    <div>
+                        <h4>Continuous Deployment</h4>
+                        <p>
+                            Proses mengirim perubahan kode ke
+                            lingkungan produksi secara otomatis
+                            setelah tahapan yang ditentukan berhasil.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+
+        <div class="section-heading">
+            <span>HUBUNGI KAMI</span>
+            <h2>Pesan Hidangan Favoritmu</h2>
+            <p>
+                Nikmati kelezatan kuliner Nusantara bersama kami.
+            </p>
+        </div>
+
+        <a
+            href="https://wa.me/6281234567890"
+            target="_blank"
+            class="btn-primary"
+        >
+            Hubungi melalui WhatsApp
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>🍲 Dapur Nusantara</h3>
+
+        <p>
+            Menghadirkan cita rasa Indonesia dalam setiap sajian.
+        </p>
+
+        <p class="copyright">
+            © 2026 Dapur Nusantara. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
